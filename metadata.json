@@ -1,0 +1,5 @@
+{
+  "name": "Sentinel Global Risk Dashboard",
+  "description": "An advanced geopolitical and security risk monitoring platform that leverages Gemini AI for real-time threat intelligence analysis, risk scoring using CVSS and NIST frameworks, and strategic advisory visualization.",
+  "requestFramePermissions": []
+}

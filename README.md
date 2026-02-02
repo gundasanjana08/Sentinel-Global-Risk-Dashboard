@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Global Risk Monitoring Dashboard
 
-# Run and deploy your AI Studio app
+## Overview
+The **Global Risk Monitoring Dashboard** is a prototype system designed to track **geopolitical events and security incidents** using open-source intelligence feeds. It applies **risk assessment frameworks** to evaluate potential business impact and provides structured reporting for advisory decision-making.
 
-This contains everything you need to run your app locally.
+## Features
+- **Risk Assessment**: Implements CVSS/NIST scoring models to quantify security and geopolitical risks.  
+- **Geopolitical Analysis**: Monitors global events and integrates threat intelligence feeds for real-time awareness.  
+- **Threat Intelligence**: Correlates incident data with geopolitical context to highlight emerging risks.  
+- **Structured Reporting**: Generates CSV/JSON outputs and visual dashboards for decision support.  
 
-View your app in AI Studio: https://ai.studio/apps/drive/1l-jO5XoqRVtOne2ZXTKxXExZ_FiXQ-Xi
+## Tech Stack
+- **Languages**: Python, SQL  
+- **Data Handling**: Pandas, JSON/CSV processing  
+- **Visualization**: Matplotlib/Seaborn (for dashboards)  
+- **Sources**: Open-source intelligence feeds, public APIs  
 
-## Run Locally
+## Use Cases
+- Security teams can monitor **global risk trends** and assess potential impact on operations.  
+- Analysts can generate **structured reports** for management and advisory functions.  
+- Supports **rotational environments** by providing clear, automated insights into geopolitical and security risks.  
 
-**Prerequisites:**  Node.js
+## Future Enhancements
+- Integration with **Splunk/ELK** for advanced log correlation.  
+- Expansion to include **machine learning models** for predictive risk scoring.  
+- Automated alerting for high-impact geopolitical events.  
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Author
+**Sanjana Gunda**  
+
